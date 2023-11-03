@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: bisque;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgb(123, 255, 0);
+    filter: drop-shadow(3px 1px 5px orange);
+    padding: 0.2em 1em;
+    margin-bottom: 0.4em;
+    margin-top: 0;
+}
+
+.recipe-list, .recipe-list * {
+    background-color: #002fff;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.recipe-link {
+    background-color: black;
+    border: 2px solid white;
+    margin: 0.2em;
+}
+
+a:hover {
+    background-color: red;
+}
